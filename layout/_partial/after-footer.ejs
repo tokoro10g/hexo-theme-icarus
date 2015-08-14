@@ -31,4 +31,13 @@
   <%- js('fancybox/jquery.fancybox.pack') %>
 <% } %>
 
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    jax: ["input/TeX","output/HTML-CSS"],
+    extensions: ["tex2jax.js","Safe.js"],
+    imageFont: null
+  });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG"></script>
+
 <%- js('js/script') %>
